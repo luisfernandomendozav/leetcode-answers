@@ -20,4 +20,3 @@ class Solution:
             profit = max(profit, tmp)
             r += 1
         return profit if profit >= 0 else 0
-        
