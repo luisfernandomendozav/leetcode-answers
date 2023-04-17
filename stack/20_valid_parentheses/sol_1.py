@@ -22,3 +22,4 @@ class Solution:
             elif len(stack) == 0 or brackets[stack.pop()] != char:
                 return False
         return len(stack) == 0
+        
